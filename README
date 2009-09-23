@@ -1,0 +1,9 @@
+This project aims to eventually replace a project I did a LONG time ago called letmeparty.com. I initially did it in a very comical attempt at making money. It did not do that at all. It is a site that allows you to associate your phone number with your blogs. You can send an SMS to the phone number of the site and that SMS will then get published to all of your blogs.
+
+I didn't think it would have many uses beyond people traveling in internet-handicapped places but was pleasantly surprised when a journalist in Sri Lanka used it to cover the conflict there. I have kept the site alive mainly for him. I promised to him and myself to one day make this service more accessible. I do not like it being so centralized in that it can shut down if anything happens to me.
+
+The other reason is that I run it from the USA with a US number, SMSing such a number is not always cheap esp from far away places in the world. The setup also uses an old, power-hungry computer, old Nokia phone, and a serial cable for the phone to talk to the computer so the computer can poll it for new incoming SMS's and all this on top of a stable electricity and internet supply. These kinds of requirements are rarely feasible in conflict areas or in some parts in general. 
+
+So with (hopefully) a flood of cheap Android devices coming out, I thought it would be nice to have these powerful mobile devices act as servers for such a service; they have the capability to run off solar power, receive incoming SMS/MMS, connect to the internet when needed either via GPRS, 3G, or GSM and will hopefully be able to be acquired cheaply or even donated as 1st gen devices such as the HTC Dream start becoming discarded.
+
+I hope that all of this might enable a perfect storm for this kind of service to flourish in many parts of the world; enabling people with basic SMS to interact and report to the world at large via the internet even if their own direct access to it might be unavailable.
