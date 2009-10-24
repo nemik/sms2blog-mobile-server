@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    >
-<TextView  
-    android:layout_width="fill_parent" 
-    android:layout_height="wrap_content" 
-    android:gravity="center_horizontal"
-    android:text="STOPPED"
-    android:id="@+id/statusText"
-    />
-<Button android:id ="@+id/switchButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
- android:text="ON"
-/>
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:gravity="center_horizontal"
+		android:text="STOPPED" 
+		android:id="@+id/statusText" />
+	<Button android:id="@+id/switchButton" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:layout_marginTop="55px"
+		android:text="Turn On" />
+	<Button android:id="@+id/settingsButton" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:layout_marginTop="55px"
+		android:text="Settings" />
 </LinearLayout>

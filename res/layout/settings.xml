@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:gravity="center_horizontal"
+		android:layout_marginBottom="55px"
+		android:text="Settings" />
+	<TextView android:id="@+settings/sendURLLabel"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Send URL" />
+	<EditText android:id ="@+settings/sendURL"
+ 		android:text="Enter URL"
+ 		android:layout_height="wrap_content" 
+ 		android:layout_width="fill_parent"
+ 		android:layout_alignTop="@+settings/sendURLLabel"
+ 		/>
+	<Button android:id="@+settings/saveButton" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:layout_marginTop="20px"
+		android:text="Save" />
+	<Button android:id="@+settings/cancelButton" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:layout_marginTop="5px"
+		android:text="Cancel" />
+</LinearLayout>

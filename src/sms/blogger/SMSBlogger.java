@@ -1,6 +1,7 @@
 package sms.blogger;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
@@ -41,6 +42,17 @@ public class SMSBlogger extends Activity
 					switchButton.setText("TURN OFF");
 				}
 					
+			}
+		}
+		);
+		
+		Button settingsButton = (Button) findViewById(R.id.settingsButton);
+		settingsButton.setOnClickListener(new View.OnClickListener()
+		{
+			public void onClick(View v)
+			{
+				Intent i = new Intent(SMSBlogger.this, SettingsActivity.class);
+				startActivity(i);
 			}
 		}
 		);
