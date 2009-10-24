@@ -6,7 +6,7 @@
       android:versionName="1.0">
       <uses-permission android:permission="android.permission.RECEIVE_SMS" android:name="android.permission.RECEIVE_SMS"></uses-permission>
      <application android:icon="@drawable/icon" android:label="@string/app_name" android:debuggable="true">
-        <activity android:name=".SMSBlogger"
+        <activity android:name=".MainActivity"
                   android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,7 +19,7 @@
 	        <action android:name="android.provider.Telephony.SMS_RECEIVED" />
 	      </intent-filter>
     	</receiver>
-    	<activity android:name=".SettingsActivity" />
+    	<activity android:name=".SettingsActivity" android:label="@string/app_settings"/>
     </application>
     <uses-sdk android:minSdkVersion="3" />
  </manifest> 

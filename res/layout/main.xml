@@ -7,6 +7,7 @@
 		android:layout_height="wrap_content" 
 		android:gravity="center_horizontal"
 		android:text="STOPPED" 
+		android:textSize="24pt"
 		android:id="@+id/statusText" />
 	<Button android:id="@+id/switchButton" 
 		android:layout_width="fill_parent"

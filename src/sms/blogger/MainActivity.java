@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class SMSBlogger extends Activity
+public class MainActivity extends Activity
 {
 	/** Called when the activity is first created. */
 	@Override
@@ -40,8 +40,7 @@ public class SMSBlogger extends Activity
 					statusText.setBackgroundColor(Color.GREEN);
 					statusText.setText("RUNNING");
 					switchButton.setText("TURN OFF");
-				}
-					
+				}	
 			}
 		}
 		);
@@ -51,7 +50,7 @@ public class SMSBlogger extends Activity
 		{
 			public void onClick(View v)
 			{
-				Intent i = new Intent(SMSBlogger.this, SettingsActivity.class);
+				Intent i = new Intent(MainActivity.this, SettingsActivity.class);
 				startActivity(i);
 			}
 		}

@@ -2,4 +2,5 @@
 <resources>
     <string name="hello">Hello World, SMSBlogger!</string>
     <string name="app_name">SMS Blogger</string>
+<string name="app_settings">SMS Blogger Settings</string>
 </resources>

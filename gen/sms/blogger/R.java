@@ -23,13 +23,17 @@ public final class R {
         public static final int settings=0x7f030001;
     }
     public static final class settings {
-        public static final int cancelButton=0x7f060003;
-        public static final int saveButton=0x7f060002;
+        public static final int backButton=0x7f060006;
+        public static final int saveButton=0x7f060005;
+        public static final int savedLabel=0x7f060004;
+        public static final int sendPassword=0x7f060003;
+        public static final int sendPasswordLabel=0x7f060002;
         public static final int sendURL=0x7f060001;
         public static final int sendURLLabel=0x7f060000;
     }
     public static final class string {
         public static final int app_name=0x7f040001;
+        public static final int app_settings=0x7f040002;
         public static final int hello=0x7f040000;
     }
 }

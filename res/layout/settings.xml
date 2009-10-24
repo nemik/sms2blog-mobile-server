@@ -2,11 +2,13 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 	android:orientation="vertical" 
 	android:layout_width="fill_parent"
-	android:layout_height="fill_parent">
+	android:layout_height="fill_parent"
+	android:title="SMSBlogger Settings">
 	<TextView android:layout_width="fill_parent"
 		android:layout_height="wrap_content" 
 		android:gravity="center_horizontal"
 		android:layout_marginBottom="55px"
+		android:textSize="24pt"
 		android:text="Settings" />
 	<TextView android:id="@+settings/sendURLLabel"
 		android:layout_width="wrap_content"
@@ -18,14 +20,31 @@
  		android:layout_width="fill_parent"
  		android:layout_alignTop="@+settings/sendURLLabel"
  		/>
+ 	<TextView android:id="@+settings/sendPasswordLabel"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Send URL Password" />
+	<EditText android:id ="@+settings/sendPassword"
+		android:password="true"
+ 		android:text="Enter Password"
+ 		android:layout_height="wrap_content" 
+ 		android:layout_width="fill_parent"
+ 		android:layout_alignTop="@+settings/sendPasswordLabel"
+ 		/>
+ 	<TextView android:id="@+settings/savedLabel"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:textColor="#00ff00"
+		android:text="" />
 	<Button android:id="@+settings/saveButton" 
 		android:layout_width="fill_parent"
 		android:layout_height="wrap_content" 
 		android:layout_marginTop="20px"
 		android:text="Save" />
-	<Button android:id="@+settings/cancelButton" 
+	<Button android:id="@+settings/backButton" 
 		android:layout_width="fill_parent"
 		android:layout_height="wrap_content" 
 		android:layout_marginTop="5px"
-		android:text="Cancel" />
+		android:text="Back" />
 </LinearLayout>
