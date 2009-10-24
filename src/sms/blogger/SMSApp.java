@@ -9,9 +9,16 @@ import android.widget.Toast;
 
 public class SMSApp extends BroadcastReceiver
 {
+	private static boolean isOn;
+	
 	@Override
 	public void onReceive(Context context, Intent intent)
 	{
+		if(!SMSApp.isOn)
+		{
+			return;
+		}
+		
 		Bundle bundle = intent.getExtras();
 
 		Object messages[] = (Object[]) bundle.get("pdus");
@@ -42,5 +49,20 @@ public class SMSApp extends BroadcastReceiver
 			//delete the message to keep it from cluttering shit up
 			
 		}
+	}
+	
+	public static void activate()
+	{
+		SMSApp.isOn = true;
+	}
+	
+	public static void deActivate()
+	{
+		SMSApp.isOn = false;
+	}
+	
+	public static boolean isOn()
+	{
+		return SMSApp.isOn;
 	}
 }
